@@ -10,4 +10,5 @@ RUN apk add --no-cache --virtual .build-deps \
 	libffi-dev \
 	openssl-dev \
     && pip3 install openstacksdk \
+    O365 \
     && apk del .build-deps
